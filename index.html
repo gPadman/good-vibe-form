@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Good Vibes</title>
+  <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+  <h1 class="heading">Good Vibes Form</h1>
+  <form class="form-main" action="index.html" method="post">
+
+    <h3 class="heading2">Tell us something positive that happened to you today.</h3>
+    <div class="form-main">
+      <div class="label-all">
+        <label for="name">Name:</label>
+      </div>
+      <div class="form-all">
+        <input type="text" name="name" placeholder="Enter name here" id="name" class="input-fields">
+      </div>
+    </div>
+    <div class="form-main">
+      <div class="label-all">
+        <label for="email">Email:</label>
+      </div>
+      <div class="form-all">
+        <input type="email" name="email" placeholder="Enter email here" id="email" class="input-fields">
+      </div>
+    </div>
+    <div class="form-main">
+      <div class="label-all">
+        <label for="scale">On a scale of 1-10, how good was it?</label>
+      </div>
+      <div class="form-all">
+        <input type="number" name="scale" placeholder="Enter a number between 1 and 10" id="scale" class="input-fields" min="1" max="10">
+      </div>
+    </div>
+    <div class="form-main">
+      <div class="label-all">
+        <label for="where">Where did it happen?</label>
+      </div>
+      <div class="form-all">
+        <select class="input-fields" name="happen">
+          <option value="At home">At home</option>
+          <option value="On my commute">On my commute</option>
+          <option value="At work">At work</option>
+          <option value="On the street">On the street</option>
+          <option value="Others">Others</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-main">
+      <div class="label-all">
+        <label for="">At what time of day did it happen?</label><br>
+      </div>
+      <div class="form-all">
+        <div class="time">
+          <input type="radio" name="when" value="Morning">Morning<br>
+          <input type="radio" name="when" value="Afternoon">Afternoon<br>
+          <input type="radio" name="when" value="Evening">Evening<br>
+        </div>
+      </div>
+    </div>
+    <div class="form-main">
+      <div class="label-all">
+        <label for="emotions">What emotions did you experience? (Select all that apply)</label><br>
+      </div>
+      <div class="form-all">
+        <input type="checkbox" name="check" value="excited">Excited <br>
+        <input type="checkbox" name="check" value="humbled">Humbled <br>
+        <input type="checkbox" name="check" value="elated">Elated <br>
+        <input type="checkbox" name="check" value="loved">Loved <br>
+        <input type="checkbox" name="check" value="enthusiastic">Enthusiastic <br>
+      </div>
+    </div>
+    <div class="form-main">
+      <div class="label-all">
+        <label for="positive">Please describe your positive experience</label><br>
+      </div>
+      <div class="form-all">
+        <textarea name="experience" rows="5" cols="50" placeholder="Enter your experience here:"></textarea>
+      </div>
+      <div class="form-main">
+        <a class="submit" href="mailto:gopinath.padmanaban@hotmail.com?subject=Submit">Submit</a>
+      </div>
+    </div>
+    <br>
+  </form>
+</body>
+
+</html>
